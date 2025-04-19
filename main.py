@@ -17,8 +17,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 # Create directories if they don't exist
 os.makedirs("models", exist_ok=True)
 os.makedirs("images", exist_ok=True)
-
-# Global variables
+ 
 CNN_MODEL = None
 REDDIT_MODEL = None
 GOLDMAN_MODEL = None
