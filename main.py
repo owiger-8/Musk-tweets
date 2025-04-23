@@ -174,7 +174,7 @@ class MuskTweetsApp:
         return loading_label
         
     def setup_results_ui(self, results):
-        # Clear the main frame
+        # Clear the main 
         for widget in self.main_frame.winfo_children():
             widget.destroy()
         
