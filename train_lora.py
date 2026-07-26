@@ -197,10 +197,10 @@ def main():
     os.makedirs("models/reddit", exist_ok=True)
     os.makedirs("models/goldman", exist_ok=True)
     os.makedirs("models/market", exist_ok=True)
-    
+    '''
     # Save sample data to file
     with open("dataset.json", "w") as f:
-        json.dump(sample_data, f, indent=2)
+        json.dump(sample_data, f, indent=2)'''
     
     # Base model path
     base_model_path = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"

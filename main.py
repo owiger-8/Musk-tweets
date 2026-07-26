@@ -18,8 +18,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 # Create directories if they don't exist
 os.makedirs("models", exist_ok=True)
 os.makedirs("images", exist_ok=True)
-
-# Global variables
+ 
 CNN_MODEL = None
 REDDIT_MODEL = None
 GOLDMAN_MODEL = None
@@ -176,7 +175,7 @@ class MuskTweetsApp:
         return loading_label
         
     def setup_results_ui(self, results):
-        # Clear the main frame
+        # Clear the main 
         for widget in self.main_frame.winfo_children():
             widget.destroy()
         
